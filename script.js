@@ -82,3 +82,5 @@ function osPersonagensCapturados() {
     pegarPersonagem1();
     pegarPersonagem3();
 }
+
+botao.onclick = osPersonagensCapturados

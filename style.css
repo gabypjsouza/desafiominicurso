@@ -6,4 +6,6 @@ body {
         #008B8B 60%,
         #00CED1 95%
     );
+    min-height: 100vh;
+    width: 100%;
 }

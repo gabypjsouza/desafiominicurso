@@ -76,3 +76,9 @@ pegarPersonagem3 = () => {
 
 
 }
+
+function osPersonagensCapturados() {
+    pegarPersonagem2();
+    pegarPersonagem1();
+    pegarPersonagem3();
+}

@@ -1,7 +1,14 @@
 # desafiominicurso
-Desafio do Minicurso Catalisa 2022 - API Rick And Morty
+ZUP | Programa Catalisa: Desafio do Minicurso 2022
 
-Executando um desafio proposto utilizando uma API Rick and Morty.
-Nessa questão o objetivo foi com um único botão, consumir uma API 3x ao mesmo tempo de forma a não repetir resultado mostrado na tela.
+Resolução do Desafio Proposto.
 
-Foi idealizado para a resolução do desafio duas páginas com formatações distintas que atendem ao pedido.
+Sobre o Desafio:
+Usando como base o código feito durante o Minicurso, seu desafio é criar uma tela que exiba aleatoriamente 3 (três) personagens do desenho Rick and Morty. 
+
+A tela deverá conter um único botão que, ao ser usado, exibirá na tela 3 (três) personagens aleatórios e as seguintes características: foto (com alt no HMTL), nome, espécie e se está vivo ou morto. 
+
+As informações dos personagens devem vir da API do Rick and Morty utilizando javascript para realizar a conexão. 
+
+API Rick and Morty Documentação:
+https://rickandmortyapi.com/documentation

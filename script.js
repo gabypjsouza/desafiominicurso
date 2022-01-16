@@ -19,7 +19,6 @@ gerarValorAleatorio = () => {
     return Math.floor(Math.random() * 671);
 }
 
-
 pegarPersonagem1 = () => {
     let numeroAleatorioPersonagem1 = gerarValorAleatorio()
     return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorioPersonagem1}`, {
@@ -35,8 +34,6 @@ pegarPersonagem1 = () => {
         especie1.innerHTML = data.species;
         condicao1.innerHTML= data.status;
     });
-
-
 }
 
 pegarPersonagem2 = () => {
@@ -54,8 +51,6 @@ pegarPersonagem2 = () => {
         especie2.innerHTML = data.species;
         condicao2.innerHTML= data.status;
     });
-
-
 }
 
 pegarPersonagem3 = () => {
@@ -73,8 +68,6 @@ pegarPersonagem3 = () => {
         especie3.innerHTML = data.species;
         condicao3.innerHTML= data.status;
     });
-
-
 }
 
 function osPersonagensCapturados() {

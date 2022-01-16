@@ -21,3 +21,21 @@ main > section img {
     width: 300px;
 }
 
+ul {
+    padding: 50px 0;
+}
+
+li {
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    display: inline;
+    padding: 10px 10px;
+    vertical-align: top;
+}
+
+li p {
+    color: white;
+    display: inline-flex;
+    font-weight: bold;
+}

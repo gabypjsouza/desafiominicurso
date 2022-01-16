@@ -14,3 +14,8 @@ const imagem3 = document.querySelector('#personagem3');
 const nomeDoPersonagem3 = document.querySelector('#nome3');
 const especie3 = document.querySelector('#especie3');
 const condicao3 = document.querySelector('#status3');
+
+gerarValorAleatorio = () => {
+    return Math.floor(Math.random() * 671);
+
+    
